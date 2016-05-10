@@ -33,7 +33,7 @@ module.exports = function(){
     
     //Assings the correct controllers to the exported express applicaiton.
     require('../app/routes/index.server.routes.js')(application);
-    require('../app/routes/statistics.server.routes.js')(application);
+    //require('../app/routes/statistics.server.routes.js')(application);
     
     return application;
 
